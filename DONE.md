@@ -14,8 +14,6 @@ Ce document récapitule les réalisations effectuées dans le cadre du TP de ges
 	Dans mon modèle : j'ai ma classe Task qui a des attributs id, titre, description, dateEcheance, priorite
 	et ses méthodes getters,setters, son constructeur
 
-(Explication et justification de ce qui a été fait...)
-
 ### Modification d'une tâche
 
 - [ ] Mécanisme de sélection et de modification de la tâche.
