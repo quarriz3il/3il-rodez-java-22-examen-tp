@@ -10,6 +10,11 @@ public class View extends JFrame
 	private JButton buttonAjouter;
 	private JLabel labelMot;
 	
+	/*
+	 * Constructeur de la vue qui va ccomprend tous les éléments graphiques de mon application
+	 * Contient un bouton buttonAjouter
+	 * Contient un libellé pour que l'utilisateur entre la tâche
+	 */
 	public View()
 	{
 		javax.swing.SwingUtilities.invokeLater(new Runnable()
@@ -18,7 +23,7 @@ public class View extends JFrame
 				{
 					fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 					
-					labelMot = new JLabel("Entrez un mot");
+					labelMot = new JLabel("Entrez l'id de la tâche");
 					JTextField textField = new JTextField(20);
 					buttonAjouter = new JButton("Ajouter");
 					
