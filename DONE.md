@@ -6,13 +6,14 @@ Ce document récapitule les réalisations effectuées dans le cadre du TP de ges
 
 ### Ajout d'une tâche
 
-- [ ] Formulaire de saisie des détails de la tâche.
-- [ ] Bouton "Ajouter".
+- [X] Formulaire de saisie des détails de la tâche.
+- [X] Bouton "Ajouter".
 - [ ] Test unitaire associé.
-	Dans ma vue : je crée mon application, un bouton ajouter, un libellé
-	Dans mon controlleur : je gère mon addActionListener qui va récupérer le signal de clic de mon bouton 		ajouter et va créer une instance de ajouterTache de ma classe Task situer dans mon modèle 
+	Dans ma vue : je crée mon application, un bouton ajouter, chaque libellé pour tous les attributs de ma classe Task
 	Dans mon modèle : j'ai ma classe Task qui a des attributs id, titre, description, dateEcheance, priorite
 	et ses méthodes getters,setters, son constructeur
+	
+	A faire : Dans mon controlleur : je gère mon addActionListener qui va récupérer le signal de clic de mon bouton 		ajouter et va créer une instance de ajouterTache de ma classe Task situer dans mon modèle avec les valeur récupérer dans le libelle
 
 ### Modification d'une tâche
 
